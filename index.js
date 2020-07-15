@@ -275,3 +275,8 @@ function getRandomFlavors(/*code here*/){
     /*code here*/
 
 }
+
+const randomFlavor = [originalFlavors, newFlavors, seasonalFlavors, regionalFlavors];
+const randomFlavors = randomFlavor[Math.floor(Math.random() * randomFlavor.length)];
+
+console.log("Random Flavors = ", randomFlavors);
